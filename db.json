@@ -1,24 +1,72 @@
 {
-  "suppliers": [
-    {
-      "id": 1,
-      "data": [
-        {
-          "firstName": "Raush1",
-          "fullName": "DIA",
-          "email": "raushan.trade+2@gmail.com",
-          "company": "14ce5cd4-ae56-e711-abaa-00155d701c02"
-        },
-        {
-          "firstName": "Raush2",
-          "fullName": "DIA2",
-          "email": "raushan.trade+3@gmail.com",
-          "company": "Wingtip Toys"
-        }
-      ]
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "services": {
+    "data": [
+      {
+        "serviceId": "7ea3b971-0299-49f1-bdee-c7ff9c7dd572",
+        "serviceName": "Service 1",
+        "catalog": "Catalog 1",
+        "channel": "Channel 1"
+      },
+      {
+        "serviceId": "4866869d-790a-4ef7-86f0-1907402d4b0d",
+        "serviceName": "Service 2",
+        "catalog": "Catalog 1",
+        "channel": "Channel 1"
+      },
+      {
+        "serviceId": "a249c0c8-cd58-4c9d-892e-10ae083fb80b",
+        "serviceName": "Service 3",
+        "catalog": "Catalog 2",
+        "channel": "Channel 2"
+      },
+      {
+        "serviceId": "259d952d-21d3-404f-9d64-81cd7dca9b84",
+        "serviceName": "Service 4",
+        "catalog": "Catalog 2",
+        "channel": "Channel 2"
+      }
+    ]
+  },
+  "suppliers": {
+    "data": [
+      {
+        "supplierId": "76bb4f8d-3bef-4988-8430-cc496ceb7df2",
+        "supplierName": "Supplier 1",
+        "approved": true,
+        "active": true,
+        "services": [
+          "7ea3b971-0299-49f1-bdee-c7ff9c7dd572",
+          "4866869d-790a-4ef7-86f0-1907402d4b0d"
+        ]
+      },
+      {
+        "supplierId": "f464ed88-c9bc-4f3e-96ef-814c71ad6f95",
+        "supplierName": "Supplier 2",
+        "approved": false,
+        "active": false,
+        "services": [
+          "a249c0c8-cd58-4c9d-892e-10ae083fb80b",
+          "259d952d-21d3-404f-9d64-81cd7dca9b84"
+        ]
+      }
+    ]
+  },
+  "supplier-contact": {
+    "data": [
+      {
+        "firstName": "DIA",
+        "lastName": "C1",
+        "email": "raushan.trade+1@gmail.com",
+        "contactType": "admin",
+        "supplierId": "76bb4f8d-3bef-4988-8430-cc496ceb7df2"
+      },
+      {
+        "firstName": "DIA",
+        "lastName": "C2",
+        "email": "raushan.trade+2@gmail.com",
+        "contactType": "security advisor",
+        "supplierId": "f464ed88-c9bc-4f3e-96ef-814c71ad6f95"
+      }
+    ]
   }
 }
