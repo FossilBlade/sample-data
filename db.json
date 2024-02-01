@@ -2,10 +2,20 @@
   "suppliers": [
     {
       "id": 1,
-      "firstName": "Raush1",
-      "fullName": "DIA",
-      "email": "raushan.trade+2@gmail.com",
-      "company": "Wingtip Toys"
+      "data": [
+        {
+          "firstName": "Raush1",
+          "fullName": "DIA",
+          "email": "raushan.trade+2@gmail.com",
+          "company": "Wingtip Toys"
+        },
+        {
+          "firstName": "Raush2",
+          "fullName": "DIA2",
+          "email": "raushan.trade+3@gmail.com",
+          "company": "Wingtip Toys"
+        }
+      ]
     }
   ],
   "profile": {
